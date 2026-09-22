@@ -6,16 +6,16 @@
 ## Структура проекта
 
 ozon_parser/
-├── .env # настройки (не в git)
-├── requirements.txt
-├── gmail_auth.py # работа с Gmail API: OAuth + поиск кода в письме
-├── get_cookies.py # получение cookies авторизованной сессии
-├── parse_ozon.py # парсинг карточек товаров по SKU (в разработке)
-├── cookies.json # сохранённые cookies (не в git!)
-├── credentials.json # OAuth client Google (не в git!)
-├── token.json # токен доступа Gmail (не в git!)
-└── output/
-└── products.csv
+   .env # настройки (не в git)
+   requirements.txt
+   gmail_auth.py # работа с Gmail API: OAuth + поиск кода в письме
+   get_cookies.py # получение cookies авторизованной сессии
+   parse_ozon.py # парсинг карточек товаров по SKU (в разработке)
+   cookies.json # сохранённые cookies (не в git!)
+   credentials.json # OAuth client Google (не в git!)
+   token.json # токен доступа Gmail (не в git!)
+   output/
+      products.csv
 
 ## Установка
 
