@@ -1,0 +1,7 @@
+cookies.json
+credentials.json
+token.json
+.env
+__pycache__/
+*.pyc
+output/
